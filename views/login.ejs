@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div className="container p-5">
+        <div className="container p-5">
+            <form className="container p-5" method="POST" action="/signin">
+                <h1 className="text-center">Login Form</h1>
+                <div className="container mt-5 w-50">
+                    <label for="email" className="mt-2">Email</label>
+                    <input className="form-control" type="email" placeHolder="Enter your email address..." name="email" />
+                </div>
+                <div className="container mt-5 w-50">
+                    <label for="password" className="mt-2">Password</label>
+                    <input className="form-control" type="password" placeHolder="Enter your email address..." name="password" />
+                </div>
+                <div className="container mt-5 w-50">
+                <button type="submit" className="btn btn-dark mt-4" onClick={submit}>Submit</button>
+    
+                    </div>
+            </form>
+        </div>
+       </div>
+</body>
+</html>
